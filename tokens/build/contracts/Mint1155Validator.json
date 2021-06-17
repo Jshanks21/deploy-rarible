@@ -1,18 +1,18 @@
 {
   "contractName": "Mint1155Validator",
   "abi": [],
-  "metadata": "{\"compiler\":{\"version\":\"0.7.6+commit.7338295f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/quadro/Projects/rarible/protocol-contracts/tokens/contracts/erc-1155/Mint1155Validator.sol\":\"Mint1155Validator\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/quadro/Projects/rarible/protocol-contracts/tokens/contracts/erc-1155/Mint1155Validator.sol\":{\"keccak256\":\"0x292608b34ec8f76ae6bb8c69f401b2a94fa0830a7e7e1ef53e13768785ee27c4\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://c3ebc0f72f66f02a6ce454cac8e64ade08f0ea8049a96e781ad22e674946d1a5\",\"dweb:/ipfs/QmTiFDq88GSepN3jGCVbUXwgowjMmcQ596Afr2c8tTjtqz\"]},\"/home/quadro/Projects/rarible/protocol-contracts/tokens/contracts/erc-1271/ERC1271.sol\":{\"keccak256\":\"0x20b428f91fe470d6cb890b1734b4769281da2e31076063b985eeb21b94067692\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://eb16e4b1427f78d3c19316bb34861cddb0a32e18c1fbc84ee57b46bb3a28845e\",\"dweb:/ipfs/QmexpPMPDcxYuAHzaXrFnYbPV9bb6zfFFarhWLKoa1YvS6\"]},\"/home/quadro/Projects/rarible/protocol-contracts/tokens/contracts/erc-1271/ERC1271Validator.sol\":{\"keccak256\":\"0xfef1de695f587d6901fd54a1b54465bc853329b94c09a65300430dcee0c6a41a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://065e8faffecccbd105929d88a6b9312aeb675b8882541e2eac1cef06a059aaee\",\"dweb:/ipfs/QmfJdjKZDCpkXADXH6xrZ1fCu44oB2hoKGNZkKGZYTZj6M\"]},\"@openzeppelin/contracts-upgradeable/cryptography/ECDSAUpgradeable.sol\":{\"keccak256\":\"0xe348c45df01e0705c50ede5063d77111a996722ffb83f0a22979338a32b06887\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://afd37f4b5b678753c3e4ac2f8b83f921a8fe0adb456600e4408ee8e26ccbb09c\",\"dweb:/ipfs/QmYfP67Yx8nQXFKBrWjhmG2htgbT5LRSymx7gVt4JRZ2j7\"]},\"@openzeppelin/contracts-upgradeable/drafts/EIP712Upgradeable.sol\":{\"keccak256\":\"0x6cd0bc8c149150614ca3d4a3d3d21f844a0ab3032625f34fcfcf1c2c8b351638\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://aee85054062c8bcc9fdbdfbc92a459e04b4b9437b04c98b820d0772c11aa7268\",\"dweb:/ipfs/QmQZLXFFGNh2qni7fJp9maYU1XoaP77sMBVY3MnFb2Cyed\"]},\"@openzeppelin/contracts-upgradeable/proxy/Initializable.sol\":{\"keccak256\":\"0xd8e4eb08dcc1d1860fb347ba5ffd595242b9a1b66d49a47f2b4cb51c3f35017e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7dbc89479d30592e82442edc38053b380f611037a5e6ceafc7bf57a7aa1f0305\",\"dweb:/ipfs/QmcdYtt56WmjeYvsFjK69FnahnAriw88VzY3XRZwXkQKKN\"]},\"@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol\":{\"keccak256\":\"0xfc5ea91fa9ceb1961023b2a6c978b902888c52b90847ac7813fe3b79524165f6\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://a6b81dcc816857a9d981386f6d8de49198420ee41cdc0ecade366ab412174d03\",\"dweb:/ipfs/QmV2vznMT6m9qo3pFMAWi3Nz3UDhwesgwFxeXe6Tod3v8A\"]},\"@rarible/lazy-mint/contracts/erc-1155/LibERC1155LazyMint.sol\":{\"keccak256\":\"0x9e878eabebd94add2651ce3a03c0a6e4d65c288893e642882186ca7a9e7d9541\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://39fa8ae2f21c5915861bbfd117c5ca1948405733c801a84f9d16845e35f74198\",\"dweb:/ipfs/QmS33E8T8tJodVkRJBMq8XvN4rN6i5wzDLhj7DCZrXXTnr\"]},\"@rarible/royalties/contracts/LibPart.sol\":{\"keccak256\":\"0xd0123f7411573a6a7e1527e0d3901913d7642e504ff240d5b7c5b76a28587def\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://447b449f7f986ecfdea10cbc96ae276877102866353b4f8410fec0bdb357d5ae\",\"dweb:/ipfs/QmatbYwMc1UXCGGH1D9fvgLbLPNdgzBVafYW84B1nJJiRr\"]}},\"version\":1}",
-  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220b4275378f6ffa22ee73cbd18d9cc3a799e644ae0cb86366e2735c3334d30249b64736f6c63430007060033",
-  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220b4275378f6ffa22ee73cbd18d9cc3a799e644ae0cb86366e2735c3334d30249b64736f6c63430007060033",
+  "metadata": "{\"compiler\":{\"version\":\"0.7.6+commit.7338295f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/jshanks/Code/test-deploy/tokens/contracts/erc-1155/Mint1155Validator.sol\":\"Mint1155Validator\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/jshanks/Code/test-deploy/tokens/contracts/erc-1155/Mint1155Validator.sol\":{\"keccak256\":\"0x292608b34ec8f76ae6bb8c69f401b2a94fa0830a7e7e1ef53e13768785ee27c4\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://c3ebc0f72f66f02a6ce454cac8e64ade08f0ea8049a96e781ad22e674946d1a5\",\"dweb:/ipfs/QmTiFDq88GSepN3jGCVbUXwgowjMmcQ596Afr2c8tTjtqz\"]},\"/home/jshanks/Code/test-deploy/tokens/contracts/erc-1271/ERC1271.sol\":{\"keccak256\":\"0x20b428f91fe470d6cb890b1734b4769281da2e31076063b985eeb21b94067692\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://eb16e4b1427f78d3c19316bb34861cddb0a32e18c1fbc84ee57b46bb3a28845e\",\"dweb:/ipfs/QmexpPMPDcxYuAHzaXrFnYbPV9bb6zfFFarhWLKoa1YvS6\"]},\"/home/jshanks/Code/test-deploy/tokens/contracts/erc-1271/ERC1271Validator.sol\":{\"keccak256\":\"0xfef1de695f587d6901fd54a1b54465bc853329b94c09a65300430dcee0c6a41a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://065e8faffecccbd105929d88a6b9312aeb675b8882541e2eac1cef06a059aaee\",\"dweb:/ipfs/QmfJdjKZDCpkXADXH6xrZ1fCu44oB2hoKGNZkKGZYTZj6M\"]},\"@openzeppelin/contracts-upgradeable/cryptography/ECDSAUpgradeable.sol\":{\"keccak256\":\"0xe348c45df01e0705c50ede5063d77111a996722ffb83f0a22979338a32b06887\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://afd37f4b5b678753c3e4ac2f8b83f921a8fe0adb456600e4408ee8e26ccbb09c\",\"dweb:/ipfs/QmYfP67Yx8nQXFKBrWjhmG2htgbT5LRSymx7gVt4JRZ2j7\"]},\"@openzeppelin/contracts-upgradeable/drafts/EIP712Upgradeable.sol\":{\"keccak256\":\"0x6cd0bc8c149150614ca3d4a3d3d21f844a0ab3032625f34fcfcf1c2c8b351638\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://aee85054062c8bcc9fdbdfbc92a459e04b4b9437b04c98b820d0772c11aa7268\",\"dweb:/ipfs/QmQZLXFFGNh2qni7fJp9maYU1XoaP77sMBVY3MnFb2Cyed\"]},\"@openzeppelin/contracts-upgradeable/proxy/Initializable.sol\":{\"keccak256\":\"0xd8e4eb08dcc1d1860fb347ba5ffd595242b9a1b66d49a47f2b4cb51c3f35017e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7dbc89479d30592e82442edc38053b380f611037a5e6ceafc7bf57a7aa1f0305\",\"dweb:/ipfs/QmcdYtt56WmjeYvsFjK69FnahnAriw88VzY3XRZwXkQKKN\"]},\"@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol\":{\"keccak256\":\"0xfc5ea91fa9ceb1961023b2a6c978b902888c52b90847ac7813fe3b79524165f6\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://a6b81dcc816857a9d981386f6d8de49198420ee41cdc0ecade366ab412174d03\",\"dweb:/ipfs/QmV2vznMT6m9qo3pFMAWi3Nz3UDhwesgwFxeXe6Tod3v8A\"]},\"@rarible/lazy-mint/contracts/erc-1155/LibERC1155LazyMint.sol\":{\"keccak256\":\"0x9e878eabebd94add2651ce3a03c0a6e4d65c288893e642882186ca7a9e7d9541\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://39fa8ae2f21c5915861bbfd117c5ca1948405733c801a84f9d16845e35f74198\",\"dweb:/ipfs/QmS33E8T8tJodVkRJBMq8XvN4rN6i5wzDLhj7DCZrXXTnr\"]},\"@rarible/royalties/contracts/LibPart.sol\":{\"keccak256\":\"0xd0123f7411573a6a7e1527e0d3901913d7642e504ff240d5b7c5b76a28587def\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://447b449f7f986ecfdea10cbc96ae276877102866353b4f8410fec0bdb357d5ae\",\"dweb:/ipfs/QmatbYwMc1UXCGGH1D9fvgLbLPNdgzBVafYW84B1nJJiRr\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122091d4b8312fa356790c33e74955d18908ec9e160f06de8574299694078503b9ff64736f6c63430007060033",
+  "deployedBytecode": "0x6080604052600080fdfea264697066735822122091d4b8312fa356790c33e74955d18908ec9e160f06de8574299694078503b9ff64736f6c63430007060033",
   "immutableReferences": {},
   "generatedSources": [],
   "deployedGeneratedSources": [],
   "sourceMap": "181:358:9:-:0;;;;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "181:358:9:-:0;;;;;",
   "source": "// SPDX-License-Identifier: MIT\n\npragma solidity >=0.6.2 <0.8.0;\n\nimport \"../erc-1271/ERC1271Validator.sol\";\nimport \"@rarible/lazy-mint/contracts/erc-1155/LibERC1155LazyMint.sol\";\n\ncontract Mint1155Validator is ERC1271Validator {\n    function __Mint1155Validator_init_unchained() internal initializer {\n        __EIP712_init_unchained(\"Mint1155\", \"1\");\n    }\n\n    function validate(address account, bytes32 hash, bytes memory signature) internal view {\n        validate1271(account, hash, signature);\n    }\n    uint256[50] private __gap;\n}\n",
-  "sourcePath": "/home/quadro/Projects/rarible/protocol-contracts/tokens/contracts/erc-1155/Mint1155Validator.sol",
+  "sourcePath": "/home/jshanks/Code/test-deploy/tokens/contracts/erc-1155/Mint1155Validator.sol",
   "ast": {
-    "absolutePath": "/home/quadro/Projects/rarible/protocol-contracts/tokens/contracts/erc-1155/Mint1155Validator.sol",
+    "absolutePath": "/home/jshanks/Code/test-deploy/tokens/contracts/erc-1155/Mint1155Validator.sol",
     "exportedSymbols": {
       "AddressUpgradeable": [
         5688
@@ -61,7 +61,7 @@
         "src": "33:31:9"
       },
       {
-        "absolutePath": "/home/quadro/Projects/rarible/protocol-contracts/tokens/contracts/erc-1271/ERC1271Validator.sol",
+        "absolutePath": "/home/jshanks/Code/test-deploy/tokens/contracts/erc-1271/ERC1271Validator.sol",
         "file": "../erc-1271/ERC1271Validator.sol",
         "id": 1128,
         "nodeType": "ImportDirective",
@@ -503,7 +503,7 @@
   },
   "legacyAST": {
     "attributes": {
-      "absolutePath": "/home/quadro/Projects/rarible/protocol-contracts/tokens/contracts/erc-1155/Mint1155Validator.sol",
+      "absolutePath": "/home/jshanks/Code/test-deploy/tokens/contracts/erc-1155/Mint1155Validator.sol",
       "exportedSymbols": {
         "AddressUpgradeable": [
           5688
@@ -555,7 +555,7 @@
       {
         "attributes": {
           "SourceUnit": 1268,
-          "absolutePath": "/home/quadro/Projects/rarible/protocol-contracts/tokens/contracts/erc-1271/ERC1271Validator.sol",
+          "absolutePath": "/home/jshanks/Code/test-deploy/tokens/contracts/erc-1271/ERC1271Validator.sol",
           "file": "../erc-1271/ERC1271Validator.sol",
           "scope": 1164,
           "symbolAliases": [
@@ -1051,7 +1051,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.0",
-  "updatedAt": "2021-06-12T05:16:00.228Z",
+  "updatedAt": "2021-06-16T20:55:36.731Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

@@ -31,7 +31,6 @@ function createNetwork(name) {
 }
 
 function createProvider(address, key, url) {
-  console.log("creating provider for address: " + address);
   var HDWalletProvider = require("@truffle/hdwallet-provider");
   return new HDWalletProvider(key, url);
 }
